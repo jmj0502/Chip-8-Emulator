@@ -1,14 +1,14 @@
 # CHIP-8 Emulator
 This is a basic CHIP-8 emulator written in C#. Why C# you've may asked? Because it's a compiled language with static typing
-and it's kind of "modern" in comparison to C/C++ (please don't ditch me by this) and I'm not that experienced working with those languages.
+and it's kind of "modern" in comparison to C/C++ (please don't ditch me for this), and I'm not that experienced working with those languages.
 
 ## How to run the project?
 This project is technically configured so you can run it without that much of a troubble. The first thing you need to do
 is install [SdlDotNet](https://www.nuget.org/packages/SdlDotNet/ "SdlDotNet on Nuget") (the package with less documentation I've seen until now) via Nuget, once you've done so, point 
 the dependecy on our solution to its global installation and should be able to use it without a trouble. 
 
-Another thing to keep in mind, is that SdlDotNet present different issues if you try to compile it for x64 arquitechtures, so 
-before you try and compile this project, make sure that you're targeting a x86 arquitechture on your project configuration.
+Another thing to keep in mind, is that SdlDotNet present different issues if you try to compile it for x64 architectures, so 
+before you try and compile this project, make sure that you're targeting a x86 architecture on your project configuration.
 
 ## Is this project done?
 No, it ain't. However, you can run it and even play games with it, there are different UI/UX factors I want to improve
