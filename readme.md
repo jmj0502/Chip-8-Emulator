@@ -26,7 +26,7 @@ as you can. Surf the web until you've seen enough implementations of Chip-8 emul
 will allow you to comprenhend how to deal with certain scenarios (ex: how to relate variables with chip-8 components, etc).
 
 ## References
-[CowGod's Chip-8 technical reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Cowgod's tecnical reference.")
-[Wikipedia page on Chip-8](https://en.wikipedia.org/wiki/CHIP-8 "Excelent complementary guide")
-[A medium article on how to read binary](https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e)
-[An article on how to read and write hex](https://learn.sparkfun.com/tutorials/hexadecimal/all#:~:text=Start%20with%20the%20right%2Dmost,%2C%2014%2C%20and%2015)
+* [CowGod's Chip-8 technical reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM "Cowgod's tecnical reference.")
+* [Wikipedia page on Chip-8](https://en.wikipedia.org/wiki/CHIP-8 "Excelent complementary guide")
+* [A medium article on how to read binary](https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e)
+* [An article on how to read and write hex](https://learn.sparkfun.com/tutorials/hexadecimal/all#:~:text=Start%20with%20the%20right%2Dmost,%2C%2014%2C%20and%2015)
