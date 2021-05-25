@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="sdl2" Version="2.0.5" />
+		<Reference Include="SdlDotNet">
+			<Hintpath>C:\Users\jmj_0\.nuget\packages\sdldotnet\1.1.0\lib\net40\SdlDotNet.dll</Hintpath>
+		</Reference>
+		<PackageReference Include="SdlDotNet" Version="1.1.0">
+		</PackageReference>
+		<PackageReference Include="Ultraviolet.Presentation" Version="2021.5.0.4569" />
+		<PackageReference Include="Ultraviolet.SDL2" Version="2021.5.0.4569" />
+		<PackageReference Include="Ultraviolet.SDL2.Native" Version="2021.5.0.4569" />
+	</ItemGroup>
+</Project>
